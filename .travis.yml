@@ -1,0 +1,20 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+  - node_modules
+node_js:
+- stable
+install:
+- npm install
+script:
+- make build
+after_success:
+- |
+  cd build
+  git init
+  git config user.name "Travis CI"
+  git config user.email "jarvis@resourceful-humans.com"
+  git add .
+  git commit -m "Deploy to GitHub Pages"
+  git push --force --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:gh-pages > /dev/null 2>&1
