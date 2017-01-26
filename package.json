@@ -1,0 +1,46 @@
+{
+  "name": "babystepstimer.js",
+  "version": "1.0.0",
+  "description": "Implementation of https://github.com/dtanzer/babystepstimer in JavaScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\n\n¯\\_(ツ)_/¯\n\n\" && exit 1",
+    "dev-server": "static build",
+    "lint": "standard",
+    "precommit": "npm run lint",
+    "commitmsg": "validate-commit-msg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderbyheart/babysteptimer.js.git"
+  },
+  "keywords": [
+    "legacy",
+    "code",
+    "kata"
+  ],
+  "author": "Markus Tacker <m@coderbyheart.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderbyheart/babysteptimer.js/issues"
+  },
+  "homepage": "https://github.com/coderbyheart/babysteptimer.js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "babelify": "^7.3.0",
+    "husky": "<2.0.0",
+    "node-static": "^0.7.9",
+    "standard": "^8.6.0",
+    "validate-commit-msg": "^2.6.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
