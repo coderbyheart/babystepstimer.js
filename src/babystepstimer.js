@@ -21,7 +21,7 @@ const resetButton = $('#reset')
 
 /**
  * TODO: Implement Mouse Move (Does that actually make sense for this?)
- * TODO: Close does not really work …
+ * TODO: Close does not really work … (Open an new window, to use it)
  */
 class Babysteptimer {
   constructor () {
