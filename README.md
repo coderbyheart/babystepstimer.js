@@ -6,6 +6,8 @@
 
 Implementation of [babysteptimer](https://github.com/dtanzer/babystepstimer) in JavaScript.
 
+> *Note:* This code is intended to be used in a [refactoring kata](https://github.com/dtanzer/babystepstimer#baby-steps-timer), so it is intentionally bad software design.
+
 ## How to run
 
     npm install
