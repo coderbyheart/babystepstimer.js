@@ -33,7 +33,7 @@
     "browserify": "^14.0.0",
     "husky": "<2.0.0",
     "node-static": "^0.7.9",
-    "standard": "^8.6.0",
+    "standard": "^9.0.0",
     "validate-commit-msg": "^2.11.1"
   },
   "dependencies": {
