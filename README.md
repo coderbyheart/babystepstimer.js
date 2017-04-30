@@ -1,5 +1,7 @@
 # babysteptimer.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/coderbyheart/babystepstimer.js.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/coderbyheart/babystepstimer.js.svg?branch=master)](https://travis-ci.org/coderbyheart/babystepstimer.js)
 [![monitored by greenkeeper.io](https://img.shields.io/badge/greenkeeper.io-monitored-brightgreen.svg)](http://greenkeeper.io/) 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
